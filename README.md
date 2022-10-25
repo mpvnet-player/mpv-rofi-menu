@@ -1,15 +1,14 @@
 
 # mpv-rofi-menu
 
-mpv-rofi-menu allows to search for input bindings using Rofi,
-which is the most popular keystroke Launcher on Linux,
-I use Albert however.
+mpv-rofi-menu allows to search for mpv player input bindings using Rofi,
+which is a popular keystroke Launcher on Linux.
 
 Requirements:
 
 - Linux and X11 (for Wayland there is wofi)
 - mpv player
-- Rofi
+- Rofi launcher
 
 input.conf:
 
