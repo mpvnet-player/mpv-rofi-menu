@@ -30,6 +30,7 @@ which is a popular keystroke Launcher on Linux.
 - https://github.com/mpvnet-player/mpv.net#command-palette
   - https://github.com/mpvnet-player/mpv.net/blob/master/docs/Manual.md#command-palette
 - https://albertlauncher.github.io
+- https://github.com/Flow-Launcher/Flow.Launcher
 - https://gist.github.com/avih/bee746200b5712220b8bd2f230e535de
 - https://github.com/nezumisama/mpvmenu
 - https://gitlab.com/carmanaught/mpvcontextmenu
