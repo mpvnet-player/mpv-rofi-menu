@@ -4,21 +4,25 @@
 mpv-rofi-menu allows to search for mpv player input bindings using Rofi,
 which is a popular keystroke Launcher on Linux.
 
-Requirements:
+## Requirements
 
 - Linux and X11 (for Wayland there is wofi)
 - mpv player
 - Rofi launcher
 
-input.conf:
+## input.conf
 
 `F1 script-message-to mpv_rofi_menu show-rofi-menu bindings`
 
-Location of Python file:
+## Location of Python file
 
 `~/.config/rofi/mpv-rofi-menu.py`
 
-Related projects:
+## Screenshot
+
+![screenshot](screenshot.png)
+
+## Related projects:
 
 - https://github.com/Seme4eg/mpv-scripts/tree/master#m-x
 - https://github.com/CogentRedTester/mpv-search-page
