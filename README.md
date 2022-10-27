@@ -17,8 +17,10 @@ Two moded are currently supported:
 
 ## input.conf
 
-`F1 script-message-to mpv_rofi_menu show-rofi-menu bindings`
-`F8 script-message-to mpv_rofi_menu show-rofi-menu playlist`
+```
+F1 script-message-to mpv_rofi_menu show-rofi-menu bindings
+F8 script-message-to mpv_rofi_menu show-rofi-menu playlist
+```
 
 ## Location of Python file
 
