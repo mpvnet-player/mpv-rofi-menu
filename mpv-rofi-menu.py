@@ -4,6 +4,7 @@ import os
 import json
 import sys
 import socket
+import pathlib
 
 def execute(cmd):
     socket_name = "/tmp/mpvsocket"
@@ -33,7 +34,20 @@ def bindings():
         elif len(sys.argv) == 1:
             print(text)
 
+def playlist():
+    playlist_text = os.getenv("mpv_rofi_menu_playlist")
+    playlist_lines = playlist_text.splitlines()
+    for x in range(0, len(playlist_lines)):
+        text = pathlib.Path(playlist_lines[x]).name
+        if len(sys.argv) == 1:
+            print(text)
+        elif len(sys.argv) == 2 and sys.argv[1] == text:
+            execute("no-osd set playlist-pos " + str(x) + "\n")
+            break
+
 mode = os.getenv("mpv_rofi_menu_mode")
 
 if mode == "bindings":
     bindings()
+elif mode == "playlist":
+    playlist()
