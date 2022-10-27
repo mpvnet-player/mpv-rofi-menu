@@ -37,6 +37,7 @@ F8 script-message-to mpv_rofi_menu show-rofi-menu playlist
 - https://github.com/stax76/mpv-scripts/blob/main/osm.lua
 - https://github.com/mpvnet-player/mpv.net#command-palette
   - https://github.com/mpvnet-player/mpv.net/blob/master/docs/Manual.md#command-palette
+- https://github.com/davatorium/rofi
 - https://albertlauncher.github.io
 - https://github.com/Flow-Launcher/Flow.Launcher
 - https://gist.github.com/avih/bee746200b5712220b8bd2f230e535de
