@@ -40,6 +40,7 @@ F8 script-message-to mpv_rofi_menu show-rofi-menu playlist
 - https://github.com/davatorium/rofi
 - https://albertlauncher.github.io
 - https://github.com/Flow-Launcher/Flow.Launcher
+- https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mdmenu
 - https://gist.github.com/avih/bee746200b5712220b8bd2f230e535de
 - https://github.com/nezumisama/mpvmenu
 - https://gitlab.com/carmanaught/mpvcontextmenu
